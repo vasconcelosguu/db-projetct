@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Relatórios</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gerador de Relatórios</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <label for="carteira">Selecione a carteira:</label>
+            <select id="carteira">
+                <option value="carteira1">Vero</option>
+                <option value="carteira2">Sicred</option>
+                <option value="carteira3">Sicoob</option>
+                <option value="carteira4">Enel SP</option>
+                <option value="carteira5">Enel RJ</option>
+                <option value="carteira6">Quinto Andar</option>
+            </select>
+        </div>
+        <div class="form-container">
+            <label for="start-date">Data de Início:</label>
+            <input type="date" id="start-date">
+        </div>
+        <div class="form-container">
+            <label for="end-date">Data de Fim:</label>
+            <input type="date" id="end-date">
+        </div>
+        <button onclick="generateReport()">Gerar Relatório</button>
+
+        <h2>Log de Geração</h2>
+        <pre id="log"></pre>
+    </main>
+    <script src="/static/main.js"></script>
+</body>
+</html>

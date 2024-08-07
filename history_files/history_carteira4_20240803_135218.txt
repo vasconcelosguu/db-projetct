@@ -1,0 +1,4 @@
+Nome	Email	Carteira	Dias Ligados por DU	Ligações Atendidas	Telefones	Hora de Geração
+Lucas	lucas@example.com	carteira4	1	5	789456123	2024-08-03 13:52:18
+Fernanda	fernanda@example.com	carteira4	2	7	123789456	2024-08-03 13:52:18
+Rafael	rafael@example.com	carteira4	3	6	456789123	2024-08-03 13:52:18
